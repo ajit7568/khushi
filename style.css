@@ -1,0 +1,230 @@
+body {
+    background-color: #FFB6C1;
+  }
+  
+  h2 {
+    font-family: 'Impact';
+    font-size: 4em;
+    position: relative;
+    top: 325px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/7/73/Pink_Chandramallika.jpg) center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: red;
+    filter: drop-shadow(1px 2px 0px rgba(25, 25, 25, .75));
+  }
+  
+  #wrap {
+    position: relative;
+    width: 800px;
+    margin: auto;
+  }
+  
+  .heart {
+    background-color: hotpink;
+    display: inline-block;
+    height: 100px;
+    margin: 0px 25px 10px 40px;
+    position: absolute;
+    top: 125px;
+    left: 250px;
+    transform: rotate(-45deg);
+    width: 100px;
+    z-index: 5;
+    animation: pulse 1.25s ease infinite;
+    filter: drop-shadow(1px 2px 0px rgba(25, 25, 25, .75));
+  }
+  
+  @keyframes pulse {
+    0% { transform: rotate(-45deg) scale(1.5); }
+    25% { transform: rotate(-45deg) scale(1.66); }
+    50% { transform: rotate(-45deg) scale(1.75); }
+    100% { transform: rotate(-45deg) scale(1.5); }
+  }
+  
+  .heart:before, .heart:after {
+    content: "";
+    background-color: hotpink;
+    border-radius: 50%;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+  }
+  
+  .heart:before {
+    top: -50px;
+    left: 0;
+  }
+  
+  .heart:after {
+    top: 0;
+    left: 50px;
+    filter: drop-shadow(1px 2px -1px rgba(25, 25, 25, .75));
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+  
+  
+   
+  
+   button {
+  
+     margin: 10px;
+  
+     height: 50px;
+  
+     width: 70px;
+  
+     font-size: 16px;
+  
+     border: none;
+  
+     border-radius: 10px;
+  
+     cursor: pointer;
+  
+     transition: .4s ease-in-out;
+  
+   }
+  
+   #yes:active {
+  
+     background: #632D5D;
+  
+   }
+  
+   #no:active {
+  
+     background: #310E25;
+  
+   }
+  
+   .containar {
+  
+     width: 100%;
+  
+     height: 100vh;
+  
+     justify-content: center;
+  
+     display: flex;
+  
+     align-items: center;
+  
+   }
+  
+   #yes {
+  
+     background-color: #94418C;
+  
+     color: white;
+     margin-top: 550px;
+  
+   }
+  
+   #no {
+  
+     background-color: #4B1639;
+  
+     color: white;
+     margin-top: 550px;
+  
+   }
+  
+   #yay {
+  
+     display: none;
+  
+    
+  
+     position: absolute;
+  
+      margin-top: 450px;
+   
+     font-weight: 900;
+  
+     font-size: 20px;
+  
+   }
+  
+   #yay1 {
+  
+     display: none;
+  
+     width: 160px;
+  
+     position: absolute;
+     margin-bottom: -250px;
+     
+  
+   }
+  
+   #can1 {
+  
+     width: 100px;
+     margin-bottom: 50px;
+  
+     position: absolute;
+  
+     margin-top: 250px;
+  
+     display: block;
+  
+   }
+  
+   #can {
+  
+     position: absolute;
+  
+     margin-top: 450px;
+  
+     font-weight: 600;
+     font-size: large;
+  
+    
+  
+   }
+  
+  img:active {
+  
+      transform: scale3d(1.2,1.2,1.2);
+  
+  }
+  
+  img{
+    transition: .4s ease-in-out;
+  }
+  .shabad{
+    font-family: 'Impact';
+    font-size: 4em;
+    position: relative;
+    margin-left: 450px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/7/73/Pink_Chandramallika.jpg) center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: red;
+    filter: drop-shadow(1px 2px 0px rgba(25, 25, 25, .75));
+  }
+  .line{
+    font-family: 'Impact';
+    font-size: 4em;
+    position: relative;
+    margin-left: 270px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/7/73/Pink_Chandramallika.jpg) center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: red;
+    filter: drop-shadow(1px 2px 0px rgba(25, 25, 25, .75));
+  }
+  .smile{
+     
+     
+     display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+      width: 50vh;
+      margin-left: 37%;
+      padding-top: -100px;
+  }
+  
